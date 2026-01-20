@@ -1,0 +1,8 @@
+Hi {name},
+
+I'm {student_name}, a {year} year Computer Science student at {university} with experience in {skills}. I'm passionate about {interest_area} and exploring internship opportunities at {company}.
+
+I noticed your role in recruiting and would love to connect about potential opportunities.
+
+Best regards,
+{student_name}
