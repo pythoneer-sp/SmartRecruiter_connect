@@ -30,23 +30,6 @@ As a CS student, I spent **2-3 hours every week** manually:
 
 ---
 
-## 🏗️ Architecture
-SmartRecruiter Connect/
-├── agents/
-│   ├── prompts.py          # Agent instructions & goals
-│   ├── search.py           # Agent 1: Finds recruiters
-│   ├── filter.py           # Agent 2: Verifies profiles
-│   └── connect.py          # Agent 3: Sends connection requests
-├── data/
-│   ├── companies.json      # Target companies
-│   ├── recruiter_keywords.json  # Titles to match
-│   └── message_template.txt     # Connection note template
-├── candidate_profile.json  # Your information
-├── main.py                 # Orchestration engine
-├── test_search_simple.py   # Test search agent
-├── test_connection.py      # Test connection agent
-└── README.md              # This file
-
 
 **Agent Workflow:**
 1. **Search Agent** → Finds 1 recruiter at target company
