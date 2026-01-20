@@ -45,6 +45,32 @@ As a CS student, I spent **2-3 hours every week** manually:
 - Android device with LinkedIn app installed & logged in
 - DroidRun configured (see [DroidRun Docs](https://docs.droidrun.ai))
 
+## Configuration
+
+### Edit your profile (candidate_profile.json):
+{
+  "name": "Your Full Name",
+  "university": "Your University",
+  "year": "3rd",
+  "skills": ["Python", "DSA", "DroidRun", "Your Skills"],
+  "interest_area": "Your interest area"
+}
+### Add target companies (data/companies.json):
+[
+  "Google",
+  "OpenAI",
+  "Microsoft"
+]
+
+### Customize message (data/message_template.txt):
+Hi {name},
+
+I'm {student_name}, a {year} year CS student at {university} passionate about {interest_area}. I'm excited about opportunities at {company} and would love to connect.
+
+Best,
+{student_name}
+
+
 ### Installation
 
 ```bash
@@ -61,26 +87,3 @@ pip install droidrun python-dotenv
 
 # Ensure DroidRun is configured
 # Follow: https://docs.droidrun.ai/quickstart
-
-Configuration
-Edit your profile (candidate_profile.json):
-{
-  "name": "Your Full Name",
-  "university": "Your University",
-  "year": "3rd",
-  "skills": ["Python", "DSA", "DroidRun", "Your Skills"],
-  "interest_area": "Your interest area"
-}
-Add target companies (data/companies.json):
-[
-  "Google",
-  "OpenAI",
-  "Microsoft"
-]
-Customize message (data/message_template.txt):
-Hi {name},
-
-I'm {student_name}, a {year} year CS student at {university} passionate about {interest_area}. I'm excited about opportunities at {company} and would love to connect.
-
-Best,
-{student_name}
